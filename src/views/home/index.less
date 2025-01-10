@@ -1,3 +1,36 @@
-.homeContainer {
-  background-color: red;
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #08142d;
+  display: flex;
+  flex-direction: column;
+  pointer-events: all;
+  .content {
+    flex: 1;
+    padding: 10px 40px 30px 40px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    .leftPart {
+      width: 481px;
+      height: 100%;
+      // margin-right: 30px;
+      overflow: hidden;
+      // border: 1px solid red;
+      background-color: aqua;
+    }
+    .centerPart {
+      width: 878px;
+      height: 100%;
+      // margin-right: 30px;
+      overflow: hidden;
+      background-color: burlywood;
+    }
+    .rightPart {
+      width: 481px;
+      height: 100%;
+      overflow: hidden;
+      background-color: aquamarine;
+    }
+  }
 }
